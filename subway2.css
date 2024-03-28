@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.subway {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.subway h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.subway p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.subway img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+th {
+    background-color: yellowgreen;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.promotions {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.promotions h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.promotions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.promotions li {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    width: 80%;
+    max-width: 500px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #fff;
+}
